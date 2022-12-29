@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(13, 10, 14);
+    background-image: url("IMG/galaxia.png");
+    background-repeat: no-repeat;
+    background-size: 130vw;
+    background-position: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.header{
+    background-color: rgb(11, 10, 11);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    height: 4vw;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.43);
+}
+.header .nav-bar{
+    background-color: rgb(21, 16, 22);
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3vw;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.389);
+    border-radius: 5px
+}
+
+.left{
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.center{
+    width: 280px;
+    display: flex;
+    justify-content: center;
+}
+.right{
+    width: 280px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+#Logo{
+    width: 2vw;
+}
+
+.nav-bar .center .title{
+    color: white;
+    font-size: 2vw;
+}
+
+.nav-bar .right >a{
+    text-decoration: none;
+    font-size: 1vw;
+    font-weight: 300;
+    color: white;
+    padding: 1vw;
+}
+
+.main{
+    background-color: rgb(14, 13, 14);
+    width: 57vw;
+    height: 84vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.468);
+    border-radius: 10px
+}
+.main .header-main{
+    background-color: rgb(21, 16, 22);
+    height: 14vh;
+    width: 40vw;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.19);
+}
+.main .header-main >h1{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: white;
+}
+.main .header-main >p{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    text-align: center ;
+}
+
+.main .center-main{
+    background-color: rgb(21, 16, 22);
+    width: 50vw;
+    height: 60vh;
+    margin: auto;
+    padding: 0px 14px 0px 14px;
+    display: flex;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.main .center-main .banner{
+    margin: 0 auto;
+    width: 720px;
+}
+
+
+
+
+
+
+
+
+
+.box{
+    margin-top: 30px;
+    background-color: rgb(10, 9, 10);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 80vh;
+    align-items: center;
+}
+
+.box .left-box{
+
+    background-color: rgb(25, 22, 25);
+}
